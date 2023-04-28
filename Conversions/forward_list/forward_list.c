@@ -26,7 +26,7 @@ void pop_front(node **head)
 {
     if(!*head)
     {
-		puts(empty_list); 
+	puts(empty_list); 
         return;
     }
     struct node *tmp = *head;
@@ -52,7 +52,7 @@ void display(node *head)
 {
     for (node *it = head; it; it = it->next)
     {
-		printf("%c", it->data);
+	printf("%c", it->data);
     }
     puts(""); 
 }
@@ -62,7 +62,7 @@ void erase(node **head)
 {
     if(!*head)
     {
-		puts(empty_list); 
+	puts(empty_list); 
         return;
     }
     node *tmp = NULL;
